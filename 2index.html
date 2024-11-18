@@ -12,7 +12,7 @@
         }
 
         h1 {
-            color: #337ab7;
+            color: #2f1691;
             text-align: center;
             font-size: 40px;
         }
@@ -21,15 +21,18 @@
             width: 50%;
             margin: 40px auto;
             padding: 20px;
-            border: 1px solid #ddd;
+            border: 10px solid #ddd;
+            border-color:#ff6a00;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            color:#2f1691;
         }
 
         label {
             display: block;
             margin-bottom: 10px;
-            color:#ff6a00;
+            color:#2f1691;
+            font-size:30px;
         }
 
         input[type="text"], input[type="email"], input[type="tel"] {
@@ -62,18 +65,19 @@
         <input type="email" id="email" name="email"><br><br>
         <label for="phone">Phone:</label>
         <input type="tel" id="phone" name="phone"><br><br>
-        <label for="coffee">Select Coffee:</label>
-        <select id="coffee" name="coffee">
-            <option value="Caramel Macchiato">Caramel Macchiato</option>
-            <option value="Mocha">Mocha</option>
-            <option value="Cappuccino">Cappuccino</option>
-            <option value="Latte">Latte</option>
-        </select><br><br>
-
-    </form>
-    <a href="http://localhost:54969/2index.html">
-
-        <button>Place Order</button>
+        <label for="payment">Payment Selection:</label>
+        <select id="payment" name="payment">
+            required>
+            <option value="COD">COD</option>
+            <option value="GCash">GCash</option>
+            <option value="Credit Card">Credit Card</option>
+            <option value="Debit Card">Debit Card</option>
+            </select>
+            <br>
+            <br>
+</form>
+    <a href="http://localhost:54969/3index.html">
+    <button>Place Order</button>
     </a>
 </body>
 </html>
