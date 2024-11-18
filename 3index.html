@@ -1,1 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Coffee Drinks</title>
+    <style>
+        body {
+            background-image: url(b.jpg);
+            background-size:cover;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
 
+        .coffee-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+
+        .coffee {
+            margin: 15px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: #fff;
+            width: 200px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+            .coffee img {
+                width: 100%;
+                border-radius: 8px 8px 0 0;
+            }
+
+            .coffee h3 {
+                margin: 10px 0;
+            }
+
+        button {
+            padding: 10px 15px;
+            background-color: #6c757d;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+            button:hover {
+                background-color: #5a6268;
+            }
+    </style>
+</head>
+<body>
+    <h1>Our Coffee Selection</h1>
+
+    <div class="coffee-container">
+        <div class="coffee">
+            <img src="b2.jpg" alt="Caramel Macchiato">
+            <h3>Caramel Macchiato</h3>
+            <a href="http://localhost:54969/4index.html"><button>Order Now</button></a>
+        </div>
+
+        <div class="coffee">
+            <img src="b3.jpg" alt="Mocha">
+            <h3>Mocha</h3>
+            <a href="http://localhost:54969/4index.html"><button>Order Now</button></a>
+        </div>
+
+        <div class="coffee">
+            <img src="b4.jpg" alt="Cappuccino">
+            <h3>Cappuccino</h3>
+            <a href="http://localhost:54969/4index.html"><button>Order Now</button></a>
+        </div>
+        <div class="coffee">
+            <img src="b5.jpg" alt="Latte">
+            <h3>Latte</h3>
+            <a href="http://localhost:54969/4index.html"><button>Order Now</button></a>
+        </div>
+    </div>
+</body>
+</html>
